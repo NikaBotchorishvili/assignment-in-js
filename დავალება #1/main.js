@@ -9,11 +9,11 @@
 
 // 1 კომენტარები
 
-/
+
   // კომენტარები გაფუჭდა თქვენი დავალებაა
   // არასწორად დაწერილი კომენტარი ჩაასწოროთ
   // და ასევე გამოიყენოთ თქვენი კოდის აღსაწერად
-*/
+
 
 
 
@@ -32,27 +32,35 @@
 // >>>> კოდი დაწერეთ აქ
 
 
-
+const person = {
+    name: "Jaseh Dwayne",
+    lastName: "Onfroy",
+    age: 24,
+    birthDate: "23 January 1998",
+    born: "Florida"
+}
 
 // 
 
-/
+
   // დროა დავიწყოთ მზადება ჩვენს მომავალ პროექტზე.
   // ჩვენი დავალეებაა მოვიფიქროთ რაიმე პროდუქტთა სია
   // რომელსაც გამოვიყენებთ მომავალში.
 
-  წიგნების მაღაზიის მაგალითი:
+  //წიგნების მაღაზიის მაგალითი:
 
   const BookName = "ვეფხისტყაოსანი";
   const AuthrName = "შოთა რუსთაველი";
   const CreateDate = "13 საუკუნე";
   let ProductQuant = 124;
-*/
 
 
-/ / >>>> კოდი დაწერეთ აქ
 
+// >>>> კოდი დაწერეთ აქ
 
+const itemName = "Red hoodie";
+const createDate = "15 January 2022"
+const itemQuantity = 190;
 //
 
 
@@ -66,17 +74,17 @@
 
 
 
-const age = "1";
-const hisName = ["bob"];
-const isHigh = "true";
-const dateOfBirth = "1995";
+const age = 1;
+const hisName = "bob";
+const isHigh = true;
+const dateOfBirth = 1995;
 
 
 
 
 // ეს კოდი ამოწმებს თქვენ მიერ მითითებულ ტიპებს
 
-// თქვენი მიზანია დააბრუნოთ პირველი 4 frue
+// თქვენი მიზანია დააბრუნოთ პირველი 4 true
 
 console.log(typeof age === "number");
 console.log(typeof hisName === "string");
@@ -85,7 +93,7 @@ console.log(typeof dateOfBirth === "number")
 
 
 
-/ აქ უნდა გაიგოთ თქვენი პროდუქტის სიის ტიპი
+//აქ უნდა გაიგოთ თქვენი პროდუქტის სიის ტიპი
 
 // მაგ: console.log(typeof age)
 
@@ -99,7 +107,12 @@ let num = 5;
 
 // >>> კოდი დაწერეთ აქ
 
+num++;
+num = num + 1;
+num+= num + 1
 
+num *= num * num;
+num*= num
 //
 
 console.log(num)
@@ -111,5 +124,10 @@ console.log(num)
 
 // >>> კოდი დაწერეთ აქ
 
+let number = 5;
+let string = "text";
 
+let result = number+string;
+
+console.log(typeof result);
 //
